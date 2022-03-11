@@ -1,0 +1,17 @@
+<template>
+
+    <div class="exampleHolder" if:true={loading}>
+        <lightning-spinner alternative-text="Loading" size="medium"></lightning-spinner>
+    </div>
+
+    <lightning-card  title="Research at the IRS">
+        <lightning-button label="New" slot="actions"></lightning-button>
+        <p class="slds-p-horizontal_small">Inform a CNPJ:</p>
+        <div class="slds-p-around_medium lgc-bg">
+            <lightning-input type="text" label="Inform a CNPJ without punctuation:" value={cnpj} onchange={cnpjChange}></lightning-input>
+        </div>
+        <lightning-button variant="brand" label="Search" title="Search" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+
+    </lightning-card>
+
+</template>
