@@ -1,0 +1,2 @@
+# prospect-salesforce
+A small project where a query is carried out in the API Receita Federal (Brazil) which, informing a CNPJ, will search for the information of this company and create a lead and a task for the user who performed the query. The lead can be worked on the way you want for prospecting and the task will be to inform the user that the Lead has been created and is waiting to start the prospecting processes. After the Lead enters the prospecting state, it will then be converted into an Account.
